@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" type="text/css" href="css/payment.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+<!--Header-->
+<div class="header-payment">
+    <h1>PAYMENT</h1>
+    <h3 style="font-size:large ;">THIS IS YOUR BILL, PLEASE CHECK YOUR ITEM BEFORE PAYING</h3>
+</div>
+<!--Header End-->
+
+<!--Card-->
+<div class="card" style="width: 40rem;">
+    <div class="card-body">
+
+        <label for="Input-First-Name" class="form-label">First Name</label>
+          <input type="text" class="form-control1" id="Input-First-Name" aria-describedby="Name">
+
+        <label for="Input-Last-Name" class="form-label">Last Name</label>
+          <input type="text" class="form-control2" id="Input-Last-Name" aria-describedby="Name">
+
+        <label for="Input-Phone-Number" class="form-label">Phone Number</label>
+          <input type="number" class="form-control3" id="Input-Phone-Number" aria-describedby="Name">
+
+        <label for="Input-Email" class="form-label">E-mail</label>
+          <input type="text" class="form-control4" id="Input-Email" aria-describedby="Name">
+
+        <label for="Input-Address" class="form-label">Address</label>
+          <input type="email" class="form-control5" id="Input-Address" aria-describedby="Name">
+
+        <label for="Input-Payment-Method" class="form-label">Payment Method</label>
+          <select>
+            <option nama="Payment-Method" value="-">-</option>
+            <option nama="Payment-Method" value="BCA">BCA (GPN/MasterCard/Platinum)</option>
+            <option nama="Payment-Method" value="BNI">BNI (Taplus/Taplus Muda/MaasterCard/Signature)</option>
+            <option nama="Payment-Method" value="Mandiri">Mandiri (Silver/Gold/Platinum</option>
+            <option nama="Payment-Method" value="Visa">Visa</option>
+            <option nama="Payment-Method" value="OVO">OVO</option>
+            <option nama="Payment-Method" value="Go-Pay">Go-Pay</option>
+            <option nama="Payment-Method" value="COD">COD (Cash On Delivery)</option>
+          </select>
+
+    </div>
+   <button class="button-payment" type="button" onclick="Swal.fire('Your Payment Has Been Success')" style="background-color: blue;">Pay Here</button>
+  </div>
+
+
+<!--Card End-->
+
+</body>
+
+<script src="../web/js/dist/sweetalert2.all.min.js"></script>
+
+</html>

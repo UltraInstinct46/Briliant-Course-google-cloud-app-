@@ -1,0 +1,36 @@
+.header-payment{
+    text-align: center;
+    background-color: #6E85B7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    margin: auto;
+    width: 800px;
+    padding: 3rem 3.5rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
+}
+
+
+.btn {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 2vh 0;
+    margin-top: 3vh
+}
+
+.button-payment {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none
+}
+
+.button-payment:hover {
+    color: rgb(255, 255, 255)
+}
